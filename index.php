@@ -1,4 +1,10 @@
-<!doctype html>
+<?php 
+$arr=["kiwi","pera","mela"];
+for ($i=0;$i<count($arr);i++){
+  print $arr [$i]
+};
+ ?>
+ <!doctype html>
 <html lang="en">
   <head>
     <!-- Required meta tags -->
@@ -15,42 +21,8 @@
     </head>
     <body>
       
-<div class="container">
-  <div class="row">
-    <div class="col-sm">
-    <h3> lista Componenti hardware pc </h3>
-    <ul>
-  <li>cpu</li>
-  <li>ram</li>
-  <li>Sheda video</li>
-</ul>
-    </div>
-    <div class="col-sm">
-      <h1> Minion palestrato </h1>
-      <img src="https://www.lifetrends.it/wp-content/uploads/2017/02/whatsapp-immagini-2017-7-minions-palestrato.png" width="200" height="200" alt="Minion">
-    </div>
-    <div class="col-sm">
-      <h2> Tabella frutta e verdura</h2>
-      <table style="width:100%">
-  <tr>
-    <th>Frutta</th>
-    <th>Verdura</th> 
-    
-  </tr>
-  <tr>
-    <td>Arancia</td>
-    <td>carota</td> 
-    
-  </tr>
-  <tr>
-    <td>limone</td>
-    <td>patata</td> 
-   
-  </tr>
-</table>
-    </div>
-  </div>
-</div>
+
+
 
 
 
